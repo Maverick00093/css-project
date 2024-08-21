@@ -1,0 +1,887 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  cursor: url(IMG/corn.png), auto;
+}
+header {
+  width: 100%;
+  height: 150px;
+  background-color: #ebd0cf;
+  border: 3px solid #4a7163;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.logo {
+  height: 50px;
+  width: 30%;
+  padding-left: 5%;
+}
+.link {
+  height: 50px;
+  width: 50%;
+}
+.link a {
+  text-decoration: none;
+  font-size: 22px;
+  line-height: 59px;
+  color: #4a7163;
+  font-weight: 400;
+  font-family: "Tenor Sans";
+  padding-left: 10%;
+}
+.link a:hover {
+  font-size: 29px;
+  font-weight: 600;
+  color: #4a7163;
+  transition: ease 0.3s;
+  cursor: url(IMG/corn2.png), auto;
+}
+.ico {
+  height: 50px;
+  width: 20%;
+}
+.ico i {
+  padding-left: 5%;
+}
+.one {
+  height: 600px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: relative;
+  background-color: #ebd0cf;
+}
+.one img {
+  height: 670px;
+  width: 22%;
+  border: 1px solid;
+  border-top-right-radius: 50%;
+  position: absolute;
+  left: 0;
+  top: 30%;
+  z-index: 2;
+}
+.ttl {
+  width: 60%;
+  height: 80px;
+  font-size: 28px;
+  color: #4a7163;
+  font-weight: 400;
+  font-family: "Tenor Sans";
+  letter-spacing: 20px;
+  position: absolute;
+  left: 32%;
+}
+span {
+  font-size: 90px;
+  line-height: 93px;
+  color: #4a7163;
+  font-weight: 400;
+  font-family: "Tenor Sans";
+}
+.two {
+  width: 100%;
+  height: 350px;
+  background-color: #4a7163;
+  display: flex;
+  justify-content: end;
+  position: relative;
+}
+.text2 {
+  width: 68%;
+}
+.lor {
+  width: 100%;
+  height: 173px;
+  font-size: 25px;
+  color: #ebd0cf;
+  font-weight: 400;
+  font-family: "Tenor Sans";
+  text-align: left;
+  letter-spacing: 5px;
+}
+.text2 button {
+  width: 20%;
+  height: 50px;
+  background-color: #ebd0cf;
+  font-size: 28px;
+  color: #4a7163;
+  font-weight: 400;
+  font-family: "Tenor Sans";
+  cursor: url(IMG/corn2.png), auto;
+}
+.text2 button:hover {
+  background-color: #4a7163;
+  color: #ebd0cf;
+  transition: ease 0.5s;
+}
+.three {
+  width: 100%;
+  height: 1000px;
+  background-color: #ebd0cf;
+}
+.ept3 {
+  height: 100px;
+  width: 100%;
+}
+.three h3 {
+  height: 50px;
+  width: 100%;
+  font-size: 28px;
+  color: #4a7163;
+  font-weight: 400;
+  font-family: "Tenor Sans";
+  text-align: center;
+  align-items: center;
+}
+.three h1 {
+  height: 150px;
+  width: 100%;
+  font-size: 57px;
+  color: #4a7163;
+  font-weight: 400;
+  font-family: "Tenor Sans";
+  text-align: center;
+}
+.box {
+  height: 600px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.box1 {
+  height: 600px;
+  width: 18%;
+}
+.img1 {
+  height: 500px;
+  width: 25%;
+  border-top-left-radius: 20%;
+  border-top-right-radius: 20%;
+}
+.img1 img {
+  height: 450px;
+  width: 400%;
+}
+.pri1 {
+  font-size: 20px;
+  color: #4a7163;
+  font-weight: 400;
+  font-family: "Tenor Sans";
+  text-align: center;
+}
+.box2 {
+  height: 600px;
+  width: 18%;
+}
+.img2 {
+  height: 500px;
+  width: 25%;
+  border-top-left-radius: 20%;
+  border-top-right-radius: 20%;
+}
+.img2 img {
+  height: 450px;
+  width: 400%;
+}
+.pri2 {
+  font-size: 20px;
+  color: #4a7163;
+  font-weight: 400;
+  font-family: "Tenor Sans";
+  text-align: center;
+}
+.box3 {
+  height: 600px;
+  width: 18%;
+}
+.img3 {
+  height: 500px;
+  width: 25%;
+  border-top-left-radius: 20%;
+  border-top-right-radius: 20%;
+}
+.img3 img {
+  height: 450px;
+  width: 400%;
+}
+.pri3 {
+  font-size: 20px;
+  color: #4a7163;
+  font-weight: 400;
+  font-family: "Tenor Sans";
+  text-align: center;
+}
+.dot {
+  height: 90px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.dot1 {
+  width: 19px;
+  height: 19px;
+  border-radius: 10px;
+  background-color: #649483;
+}
+.dot2 {
+  width: 19px;
+  height: 19px;
+  border-radius: 10px;
+  background-color: #649483;
+}
+.dot3 {
+  width: 19px;
+  height: 19px;
+  border-radius: 10px;
+  background-color: #649483;
+}
+.dot4 {
+  width: 19px;
+  height: 19px;
+  border-radius: 10px;
+  background-color: #649483;
+}
+.four {
+  width: 100%;
+  height: 1010px;
+  background-color: #ebd0cf;
+}
+.green {
+  width: 70%;
+  height: 1000px;
+  background-color: #4a7163;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+}
+.text4 {
+  height: 700px;
+  width: 70%;
+  position: absolute;
+  top: 300px;
+}
+.text4 h3 {
+  height: 60px;
+  width: 100%;
+  font-size: 28px;
+  color: #ebd0cf;
+  font-weight: 400;
+  font-family: "Tenor Sans";
+}
+.text4 p {
+  height: 230px;
+  width: 100%;
+  font-size: 90px;
+  line-height: 93px;
+  color: #ebd0cf;
+  font-weight: 400;
+  font-family: "Tenor Sans";
+}
+.p2 {
+  width: 100%;
+  height: 130px;
+  font-size: 17px;
+  color: #ebd0cf;
+  font-weight: 400;
+  font-family: "Tenor Sans";
+  text-align: left;
+}
+.text4 button {
+  width: 267px;
+  height: 49px;
+  background-color: #ebd0cf;
+  font-size: 28px;
+  color: #4a7163;
+  font-weight: 400;
+  font-family: "Tenor Sans";
+  cursor: url(IMG/corn2.png), auto;
+}
+.text4 button:hover {
+  background-color: #4a7163;
+  color: #ebd0cf;
+  transition: ease 0.5s;
+}
+.img4 {
+  width: 35%;
+  height: 630px;
+  background-color: #e5e5e5;
+  border-top-right-radius: 50%;
+  position: absolute;
+  top: 250px;
+  left: 83%;
+}
+.img4 img {
+  width: 100%;
+  height: 630px;
+  border-top-right-radius: 50%;
+}
+.five {
+  height: 1800px;
+  background-color: #ebd0cf;
+}
+.five1 {
+  height: 900px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.img5 {
+  width: 50%;
+  height: 900px;
+}
+.img5 img {
+  width: 100%;
+  height: 900px;
+}
+.text51 {
+  height: 900px;
+  width: 50%;
+  position: relative;
+}
+.det1 {
+  height: 500px;
+  width: 70%;
+  position: absolute;
+  top: 200px;
+  left: 10%;
+}
+.text51 h1 {
+  height: 200px;
+  font-size: 90px;
+  line-height: 93px;
+  color: #4a7163;
+  font-weight: 400;
+  font-family: "Tenor Sans";
+}
+.text51 p {
+  width: 100%;
+  height: 100px;
+  font-size: 17px;
+  color: #4a7163;
+  font-weight: 400;
+  font-family: "Tenor Sans";
+  text-align: left;
+}
+.text51 button {
+  width: 90%;
+  height: 49px;
+  background-color: #ebd0cf;
+  border: 5px solid #4a7163;
+  font-size: 28px;
+  color: #4a7163;
+  font-weight: 400;
+  font-family: "Tenor Sans";
+  cursor: url(IMG/corn2.png), auto;
+}
+.text51 button:hover {
+  background-color: #4a7163;
+  border: 5px solid #4a7163;
+  color: #ebd0cf;
+  transition: ease 0.5s;
+}
+.five2 {
+  height: 900px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.text52 {
+  height: 900px;
+  width: 50%;
+  position: relative;
+}
+.det2 {
+  height: 500px;
+  width: 70%;
+  position: absolute;
+  top: 250px;
+  left: 10%;
+  font-size: 40px;
+  color: #4a7163;
+  font-weight: 400;
+  font-family: "Tenor Sans";
+}
+.det2 h1 {
+  height: 200px;
+  width: 100%;
+}
+.det2 p {
+  width: 100%;
+  height: 100px;
+  font-size: 17px;
+  color: #4a7163;
+  font-weight: 400;
+  font-family: "Tenor Sans";
+  text-align: left;
+}
+.det2 button {
+  width: 90%;
+  height: 49px;
+  background-color: #ebd0cf;
+  border: 5px solid #4a7163;
+  font-size: 28px;
+  color: #4a7163;
+  font-weight: 400;
+  font-family: "Tenor Sans";
+  cursor: url(IMG/corn2.png), auto;
+}
+.det2 button:hover {
+  background-color: #4a7163;
+  border: 5px solid #4a7163;
+  color: #ebd0cf;
+  transition: ease 0.5s;
+}
+.six {
+  width: 100%;
+  height: 1100px;
+  background-color: #4a7163;
+}
+.ept6 {
+  height: 100px;
+  width: 100%;
+  background-color: #4a7163;
+}
+.ttl6 {
+  font-size: 90px;
+  line-height: 93px;
+  color: #ebd0cf;
+  font-weight: 400;
+  font-family: "Tenor Sans";
+  text-align: center;
+}
+.ttl62 {
+  height: 50px;
+  font-size: 25px;
+  color: #ebd0cf;
+  font-weight: 200;
+  font-family: "Tenor Sans";
+  text-align: center;
+}
+.clnt {
+  height: 850px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.six1 {
+  height: 400px;
+  width: 45%;
+}
+.img61 {
+  height: 150px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.name61 {
+  height: 80px;
+  font-size: 20px;
+  color: #ebd0cf;
+  font-weight: 400;
+  font-family: "Tenor Sans";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dtl61 {
+  width: 100%;
+  height: 87px;
+  font-size: 17px;
+  color: #ebd0cf;
+  font-weight: 400;
+  font-family: "Tenor Sans";
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.six2 {
+  height: 400px;
+  width: 45%;
+}
+.img62 {
+  height: 150px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.name62 {
+  height: 80px;
+  font-size: 20px;
+  color: #ebd0cf;
+  font-weight: 400;
+  font-family: "Tenor Sans";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dtl62 {
+  width: 100%;
+  height: 87px;
+  font-size: 17px;
+  color: #ebd0cf;
+  font-weight: 400;
+  font-family: "Tenor Sans";
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.six3 {
+  height: 400px;
+  width: 45%;
+}
+.img63 {
+  height: 150px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.name63 {
+  height: 80px;
+  font-size: 20px;
+  color: #ebd0cf;
+  font-weight: 400;
+  font-family: "Tenor Sans";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dtl63 {
+  width: 100%;
+  height: 87px;
+  font-size: 17px;
+  color: #ebd0cf;
+  font-weight: 400;
+  font-family: "Tenor Sans";
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.six4 {
+  height: 400px;
+  width: 45%;
+}
+.img64 {
+  height: 150px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.name64 {
+  height: 80px;
+  font-size: 20px;
+  color: #ebd0cf;
+  font-weight: 400;
+  font-family: "Tenor Sans";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dtl64 {
+  width: 100%;
+  height: 87px;
+  font-size: 17px;
+  color: #ebd0cf;
+  font-weight: 400;
+  font-family: "Tenor Sans";
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.seven {
+  height: 1550px;
+  width: 100%;
+  background-color: #ebd0cf;
+}
+.ept7 {
+  height: 100px;
+  width: 100%;
+  background-color: #ebd0cf;
+}
+.ttl7 {
+  height: 150px;
+  width: 100%;
+  font-size: 90px;
+  line-height: 93px;
+  color: #4a7163;
+  font-weight: 400;
+  font-family: "Tenor Sans";
+  text-align: center;
+}
+.box7 {
+  height: 1200px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.svn1 {
+  height: 465px;
+  width: 40%;
+}
+.img71 {
+  height: 400px;
+  width: 100%;
+}
+.img71 img {
+  height: 390px;
+  width: 100%;
+}
+.name71 {
+  height: 50px;
+  width: 100%;
+  font-size: 28px;
+  color: #4a7163;
+  font-weight: 400;
+  font-family: "Tenor Sans";
+  text-align: center;
+}
+.det71 {
+  height: 130px;
+  width: 100%;
+  font-size: 17px;
+  color: #4a7163;
+  font-weight: 400;
+  font-family: "Tenor Sans";
+  text-align: center;
+}
+.svn2 {
+  height: 465px;
+  width: 40%;
+}
+.img72 {
+  height: 400px;
+  width: 100%;
+}
+.img72 img {
+  height: 390px;
+  width: 100%;
+}
+.name72 {
+  height: 50px;
+  width: 100%;
+  font-size: 28px;
+  color: #4a7163;
+  font-weight: 400;
+  font-family: "Tenor Sans";
+  text-align: center;
+}
+.det72 {
+  height: 130px;
+  width: 100%;
+  font-size: 17px;
+  color: #4a7163;
+  font-weight: 400;
+  font-family: "Tenor Sans";
+  text-align: center;
+}
+.svn3 {
+  height: 465px;
+  width: 40%;
+}
+.img73 {
+  height: 400px;
+  width: 100%;
+}
+.img73 img {
+  height: 390px;
+  width: 100%;
+}
+.name73 {
+  height: 50px;
+  width: 100%;
+  font-size: 28px;
+  color: #4a7163;
+  font-weight: 400;
+  font-family: "Tenor Sans";
+  text-align: center;
+}
+.det73 {
+  height: 130px;
+  width: 100%;
+  font-size: 17px;
+  color: #4a7163;
+  font-weight: 400;
+  font-family: "Tenor Sans";
+  text-align: center;
+}
+.svn4 {
+  height: 465px;
+  width: 40%;
+}
+.img74 {
+  height: 400px;
+  width: 100%;
+}
+.img74 img {
+  height: 390px;
+  width: 100%;
+}
+.name74 {
+  height: 50px;
+  width: 100%;
+  font-size: 28px;
+  color: #4a7163;
+  font-weight: 400;
+  font-family: "Tenor Sans";
+  text-align: center;
+}
+.det74 {
+  height: 130px;
+  width: 100%;
+  font-size: 17px;
+  color: #4a7163;
+  font-weight: 400;
+  font-family: "Tenor Sans";
+  text-align: center;
+}
+.btn7 {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.btn7 button {
+  width: 267px;
+  height: 50px;
+  background-color: #4a7163;
+  font-size: 28px;
+  color: #ebd0cf;
+  font-weight: 400;
+  font-family: "Tenor Sans";
+  text-align: center;
+  cursor: url(IMG/corn2.png), auto;
+}
+.btn7 button:hover {
+  background-color: #ebd0cf;
+  color: #4a7163;
+  transition: ease 0.5s;
+}
+.eight {
+  width: 100%;
+  height: 600px;
+  background-color: #4a7163;
+}
+.ept8 {
+  height: 100px;
+  width: 100%;
+  background-color: #4a7163;
+}
+.box8 {
+  height: 400px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.egt1 {
+  height: 300px;
+  width: 25%;
+}
+.ll {
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  font-size: 75px;
+  line-height: 81px;
+  color: #ebd0cf;
+  font-weight: 400;
+  font-family: "Tenor Sans";
+  align-items: center;
+}
+.icon8 {
+  padding-left: 25%;
+}
+.icon8 i {
+  padding-left: 5%;
+}
+.egt2 {
+  height: 300px;
+  width: 25%;
+}
+.os {
+  height: 80px;
+  width: 100%;
+  font-size: 25px;
+  line-height: 66px;
+  color: #ebd0cf;
+  font-weight: 400;
+  font-family: "Tenor Sans";
+  text-align: center;
+}
+.det82 {
+  width: 80%;
+  height: 180px;
+  font-size: 21px;
+  line-height: 35px;
+  color: #ebd0cf;
+  font-weight: 400;
+  font-family: "Tenor Sans";
+  display: flex;
+  justify-content: center;
+}
+.egt3 {
+  height: 300px;
+  width: 25%;
+}
+.ot {
+  height: 80px;
+  width: 100%;
+  font-size: 25px;
+  line-height: 66px;
+  color: #ebd0cf;
+  font-weight: 400;
+  font-family: "Tenor Sans";
+  text-align: center;
+}
+.det83 {
+  width: 80%;
+  height: 180px;
+  font-size: 21px;
+  line-height: 35px;
+  color: #ebd0cf;
+  font-weight: 400;
+  font-family: "Tenor Sans";
+  display: flex;
+  justify-content: center;
+}
+.egt4 {
+  height: 300px;
+  width: 25%;
+}
+.lgl {
+  height: 80px;
+  width: 100%;
+  font-size: 25px;
+  line-height: 66px;
+  color: #ebd0cf;
+  font-weight: 400;
+  font-family: "Tenor Sans";
+  text-align: center;
+}
+.det84 {
+  width: 80%;
+  height: 180px;
+  font-size: 21px;
+  line-height: 35px;
+  color: #ebd0cf;
+  font-weight: 400;
+  font-family: "Tenor Sans";
+  display: flex;
+  justify-content: center;
+}
+.cr {
+  height: 100px;
+  width: 100%;
+  font-size: 21px;
+  line-height: 35px;
+  color: #ebd0cf;
+  font-weight: 400;
+  font-family: "Tenor Sans";
+  padding-left: 7%;
+}
